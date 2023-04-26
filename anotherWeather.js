@@ -41,7 +41,7 @@ const at5 = document.querySelector('#at5');
 const popNum5 = document.querySelector('#popNum5');
 const iconCity5 = document.querySelector('.iconCity5');
 
-const county6 = document.querySelector('#county3');
+const county6 = document.querySelector('#county6');
 const wx6 = document.querySelector('#wx6');
 const at6 = document.querySelector('#at6');
 const popNum6 = document.querySelector('#popNum6');
