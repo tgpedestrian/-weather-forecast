@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>weather-forecast</title>
+  </head>
+  <body>
+    <div class="imgdiv">
+      <img
+        src="https://img12.iqilu.com/1/clue/202205/17/6cf1477f-9ba3-4924-9bbc-dc2307a7880f.gif"
+        alt=""
+        class="imgg"
+      />
+    </div>
+    <div class="contain-city">
+      <h1>天氣預報</h1>
+      <select name="" id="userCounty" class="user">
+        <option>選擇縣市</option>
+        <option>嘉義縣</option>
+        <option>新北市</option>
+        <option>嘉義市</option>
+        <option>新竹縣</option>
+        <option>新竹市</option>
+        <option>臺北市</option>
+        <option>臺南市</option>
+        <option>宜蘭縣</option>
+        <option>苗栗縣</option>
+        <option>雲林縣</option>
+        <option>花蓮縣</option>
+        <option>臺中市</option>
+        <option>臺東縣</option>
+        <option>桃園市</option>
+        <option>南投縣</option>
+        <option>高雄市</option>
+        <option>金門縣</option>
+        <option>屏東縣</option>
+        <option>基隆市</option>
+        <option>澎湖縣</option>
+        <option>彰化縣</option>
+        <option>連江縣</option>
+      </select>
+      <div class="weatherInfo-city">
+        <div class="weatherInfo">
+          <ul>
+            <li id="county"></li>
+            <li id="wx"></li>
+            <li id="at">
+              <span id="minT"></span><span id="maxT"></span
+              ><span id="unit"></span>
+            </li>
+            <li id="pop"><span id="popNum"></span></li>
+          </ul>
+        </div>
+
+        <div class="iconCity"></div>
+      </div>
+    </div>
+
+    <!-- <img class="aa" src="./src/image/資產 1.svg" alt="" /> -->
+    <script src="./index.js"></script>
+  </body>
+</html>
