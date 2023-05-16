@@ -27,8 +27,8 @@ const imgdiv = document.querySelector('.imgdiv');
 //         "Content-Type" : "application/json",
 
 //     },
-//     body:Json.stringify({body})
-// }
+//     body:JSON.stringify(body)
+// })
 // .then(function(respons){
 //     return respons.json();
 // })
@@ -48,9 +48,6 @@ fetch('https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorizati
 })
 .then(function(data){
     weather =data;
-
-    // userCounty.value = "嘉義市";
-    // userCounty.dispatchEvent(new Event('change'));
     console.log(data);
 })
 .then(function(err){
